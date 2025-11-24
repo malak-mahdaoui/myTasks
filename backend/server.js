@@ -1,18 +1,19 @@
 const express = require('express')
-const dotenv = require('dotenv').config()
+const dotenv = require('dotenv').config({ path: './backend/.env' })
 const cors = require('cors');
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5001
 const mongoDB = require('./config/db')
 const errorHandler = require('./middleWare/errorHandler')
+
 
 mongoDB()
 const app = express()
 
 app.use(cors({
-  origin: ["https://task-manager-client-blush.vercel.app"],
+  origin: ["http://localhost:3000", "https://task-manager-client-blush.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}))
+  credentials: true // pour les cookies
+}));
 
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
