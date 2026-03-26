@@ -20,7 +20,7 @@ const TaskFilter = ({favFilter}) => {
     <Box>
       {filterdTasks && filterdTasks.length ? (
         filterdTasks.map((task) => (
-          <List dense={true} key={task._id} sx={{backgroundColor: favFilter ? '#dff0ed' : '#d4bf90', margin: '5px 0'}}>
+          <List dense={true} key={task._id} sx={{backgroundColor: favFilter ? '#b5fcefff' : '#d4bf90', margin: '5px 0'}}>
             <ListItem>
               <ListItemText
                 primary={task.taskItem}

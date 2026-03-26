@@ -70,7 +70,7 @@ const Navbar = () => {
             variant="h6"
             sx={{ fontWeight: 600, display: { xs: "none", sm: "block" } }}
           >
-            Task Manager
+            My Tasks
           </Typography>
         </Stack>
 
