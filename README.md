@@ -3,7 +3,6 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Task Manager\] ](#-task-manager-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -19,10 +18,7 @@
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-
-# 📖 [Task Manager] <a name="about-project"></a>
-
-**[Task Manager]** This project is designed to help users manage their tasks efficiently, providing a seamless experience from task creation to tracking and deletion. Built using the MERN stack (MongoDB, Express, React, Node.js), this task manager offers a robust set of features to streamline your task management process.
+This project is designed to help users manage their tasks efficiently, providing a seamless experience from task creation to tracking and deletion. Built using the MERN stack (MongoDB, Express, React, Node.js), this task manager offers a robust set of features to streamline your task management process.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -108,7 +104,6 @@ The above command will run both the fron and the back end at the sametime.
 
 👤 **Getayawkal Tamrat**
 
-- GitHub: [@githubhandle](https://github.com/getssh)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/getayawkal-tamrat/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
